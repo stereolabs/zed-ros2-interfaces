@@ -14,6 +14,7 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(shape_msgs REQUIRED)
 
 ###############################################################################
 # Add all files in subdirectories of the project in
@@ -34,6 +35,7 @@ set(MSG_FILES
     "msg/Skeleton2D.msg"
     "msg/Skeleton3D.msg"
     "msg/DepthInfoStamped.msg"
+    "msg/PlaneStamped.msg"
 )
 
 set(SRV_FILES
@@ -44,7 +46,7 @@ set(SRV_FILES
 rosidl_generate_interfaces(${PROJECT_NAME}    
     ${MSG_FILES}
     ${SRV_FILES}
-    DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
+    DEPENDENCIES builtin_interfaces std_msgs geometry_msgs shape_msgs
 )
 
 # Install URDF files
