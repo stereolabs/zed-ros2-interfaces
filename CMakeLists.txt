@@ -79,6 +79,7 @@ set(MSG_FILES
 set(SRV_FILES
     "srv/SetPose.srv"
     "srv/StartSvoRec.srv"
+    "srv/SetROI.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}    
