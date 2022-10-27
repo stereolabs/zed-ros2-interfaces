@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(zed_interfaces)
 
+## Generate symbols for IDE indexer
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 ################################################
 # Check the ROS2 version
 
