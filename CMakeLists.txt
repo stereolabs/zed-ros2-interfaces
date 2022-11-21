@@ -24,14 +24,14 @@ else()
                 set(FOUND_ROS2_DISTRO ${distro})
                 set(ROS2_FOUND TRUE)
             endif()
-        endif()        
-    endforeach()    
-endif(DEFINED ENV{ROS_DISTRO})
+        endif()
+    endforeach()
+endif()
 
 if(ROS2_FOUND)
     if(${FOUND_ROS2_DISTRO} STREQUAL "foxy")
         message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
-        add_definitions(-DFOUND_FOXY)    
+        add_definitions(-DFOUND_FOXY)
     elseif(${FOUND_ROS2_DISTRO} STREQUAL "humble")
         message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
         add_definitions(-DFOUND_HUMBLE)
@@ -58,10 +58,15 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
 ###############################################################################
 # Add all files in subdirectories of the project in
 # a dummy_target so qtcreator have access to all files
-FILE(GLOB_RECURSE extra_files ${CMAKE_SOURCE_DIR}/*)
+file(GLOB_RECURSE extra_files ${CMAKE_SOURCE_DIR}/*)
 add_custom_target(all_${PROJECT_NAME}_files SOURCES ${extra_files})
 ###############################################################################
 
@@ -86,7 +91,7 @@ set(SRV_FILES
     "srv/SetROI.srv"
 )
 
-rosidl_generate_interfaces(${PROJECT_NAME}    
+rosidl_generate_interfaces(${PROJECT_NAME}
     ${MSG_FILES}
     ${SRV_FILES}
     DEPENDENCIES builtin_interfaces std_msgs geometry_msgs shape_msgs
