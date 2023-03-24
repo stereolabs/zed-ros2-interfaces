@@ -13,7 +13,9 @@ You must instead install this package on a remote system that must retrieve the 
 ### Prerequisites
 
 - Ubuntu 20.04
-- [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
+  - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
+- Ubuntu 22.04
+  - [ROS2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
 ### Build the repository
 
