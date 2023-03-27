@@ -85,6 +85,7 @@ set(MSG_FILES
     "msg/Skeleton3D.msg"
     "msg/DepthInfoStamped.msg"
     "msg/PlaneStamped.msg"
+    "msg/PosTrackStatus.msg"
 )
 
 set(SRV_FILES
