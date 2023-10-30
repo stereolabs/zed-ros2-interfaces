@@ -1,4 +1,4 @@
-# Restart positional tracking to a new pose in base_link frame
+# Restart positional tracking to a new pose in camera_link frame
 
 # Translation XYZ [meters]
 float32[3] pos
