@@ -8,7 +8,7 @@ uint8 SEARCHING=0
 uint8 OK = 1
 uint8 OFF = 2
 uint8 FPS_TOO_LOW = 3
-uint8 SEARCHING_FLOOR_PLANE = 3
+uint8 SEARCHING_FLOOR_PLANE = 4
 
 # Status
 uint8 status
