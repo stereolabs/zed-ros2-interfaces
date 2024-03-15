@@ -86,6 +86,7 @@ set(MSG_FILES
     "msg/DepthInfoStamped.msg"
     "msg/PlaneStamped.msg"
     "msg/PosTrackStatus.msg"
+    "msg/GnssFusionStatus.msg"
     "msg/Heartbeat.msg"
     "msg/MagHeadingStatus.msg"
 )
