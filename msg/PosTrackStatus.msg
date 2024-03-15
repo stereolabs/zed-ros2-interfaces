@@ -25,3 +25,6 @@ uint8 map_tracking_status
 # OFF - The IMU fusion module is not enabled.
 # CALIBRATION_IN_PROGRESS - Calibration of the visual-inertial fusion module is in progress.
 uint8 imu_fusion_status
+
+# Deprecated
+uint8 status
