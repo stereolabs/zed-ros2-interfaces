@@ -1,0 +1,7 @@
+# Save Area Database from positional tracking 
+
+# File path where the database is to be saved
+string file_path
+---
+bool success   # indicate successful run of service
+string message # informational, e.g. for error messages
