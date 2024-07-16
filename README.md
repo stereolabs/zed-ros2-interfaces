@@ -48,7 +48,7 @@ source ~/.bashrc
 
 `$ sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential`
 
-'Note': The option `--symlink-install` is very important, it allows to use symlinks instead of copying files to the ROS2 folders during the installation, where possible. Each package in ROS2 must be installed and all the files used by the nodes must be copied into the installation folders. Using symlinks allows you to modify them in your workspace, reflecting the modification during the next executions without the needing to issue a new colcon build command. This is true only for all the files that don't need to be compiled (Python scripts, configurations, etc.).
+'Note': The option `--symlink-install` is important, it allows using symlinks instead of copying files to the ROS2 folders during the installation, where possible. Each package in ROS2 must be installed and all the files used by the nodes must be copied into the installation folders. Using symlinks allows you to modify them in your workspace, reflecting the modification during the next executions without the needing to issue a new colcon build command. This is true only for all the files that don't need to be compiled (Python scripts, configurations, etc.).
 
 **Note**: If you are using a different console interface like zsh, you have to change the `source` command as follows: `echo source $(pwd)/install/local_setup.zsh >> ~/.zshrc and source ~/.zshrc`.
 
@@ -65,11 +65,11 @@ source ~/.bashrc
  - Skeleton2D
  - Skeleton3D
 
-You can get more information reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/)
+You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/)
 
 ## Custom Services
 
  - SetPose
  - StartSvoRec
 
-You can get more information reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
+You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
