@@ -1,2 +1,2 @@
 # Skeleton joints
-zed_interfaces/Keypoint2Df[70] keypoints
+zed_msgs/Keypoint2Df[70] keypoints

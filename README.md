@@ -3,7 +3,7 @@
    ROS 2 Interfaces
 </h1>
 
-The `zed-ros2-interfaces` repository install the `zed_interfaces` ROS2 package which defines the custom topics, services and actions used by the [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) to interface with ROS2.
+The `zed-ros2-interfaces` repository install the `zed_msgs` ROS2 package which defines the custom topics, services and actions used by the [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) to interface with ROS2.
 
 If you already installed the [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) or you plan to install it on this machine, this package is not required because it is automatically integrated by `zed-ros2-wrapper` as a git submodule to satisfy all the required dependencies.
 
@@ -20,7 +20,7 @@ You must instead install this package on a remote system that must retrieve the 
 
 ### Build the repository
 
-The `zed_interfaces` is a colcon package. It depends on the following ROS packages:
+The `zed_msgs` is a colcon package. It depends on the following ROS packages:
 
 - ament_cmake
 - builtin_interfaces
