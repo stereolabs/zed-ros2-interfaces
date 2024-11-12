@@ -3,4 +3,4 @@
 #      |         |
 #      |         |
 #      3 ------- 2
-zed_interfaces/Keypoint2Di[4] corners
+zed_msgs/Keypoint2Di[4] corners

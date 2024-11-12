@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(zed_interfaces)
+project(zed_msgs)
 
 ## Generate symbols for IDE indexer
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
