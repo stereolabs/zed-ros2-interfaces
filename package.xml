@@ -5,6 +5,8 @@
 <version>4.2.1</version>
 	<description>Contains message and service definitions used by the ZED ROS2 nodes.</description>
 	<maintainer email="support@stereolabs.com">STEREOLABS</maintainer>
+	<maintainer email="walter.lucetti@stereolabs.com">Walter Lucetti</maintainer>
+	<maintainer email="aymeric.dujardin@stereolabs.com">Aymeric Dujardin</maintainer>
 	<license>Apache License 2.0</license>
 	<url type="website">https://www.stereolabs.com/</url>
 	<url type="repository">https://github.com/stereolabs/zed-ros2-wrapper</url>
