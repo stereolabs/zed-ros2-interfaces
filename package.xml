@@ -7,6 +7,8 @@
 	<maintainer email="support@stereolabs.com">STEREOLABS</maintainer>
 	<maintainer email="walter.lucetti@stereolabs.com">Walter Lucetti</maintainer>
 	<maintainer email="aymeric.dujardin@stereolabs.com">Aymeric Dujardin</maintainer>
+	<maintainer email="olivier.braun@stereolabs.com">Olivier Braun</maintainer>
+	<maintainer email="pierre.yver@stereolabs.com">Pierre Yver</maintainer>
 	<license>Apache License 2.0</license>
 	<url type="website">https://www.stereolabs.com/</url>
 	<url type="repository">https://github.com/stereolabs/zed-ros2-wrapper</url>
