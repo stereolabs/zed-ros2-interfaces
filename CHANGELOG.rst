@@ -2,8 +2,8 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-4.2.2 (2024-11-21)
-------------------
+Forthcoming
+-----------
 * Changed the name of the package `zed_interfaces` to `zed_msgs` to match the ROS2 naming convention
 * Add ZED X One mesh
 * Update packages version
