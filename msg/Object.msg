@@ -66,3 +66,6 @@ zed_msgs/Skeleton2D skeleton_2d
 
 # 3D Person skeleton in world frame
 zed_msgs/Skeleton3D skeleton_3d
+
+# Confidence levels for each of the skeleton keypoints
+float32[70] skeleton_keypoint_confidence
