@@ -2,7 +2,7 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.2.5 (2025-03-25)
+------------------
 * Update Object.msg
 * Update README.md
