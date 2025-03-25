@@ -26,6 +26,7 @@ bool tracking_available
 # 0 -> OFF (object not valid)
 # 1 -> OK
 # 2 -> SEARCHING (occlusion occurred, trajectory is estimated)
+# 3 -> TERMINATE (This is the last searching state of the track. The track will be deleted in the next frame).
 int8 tracking_state
 
 # Action state
@@ -33,7 +34,7 @@ int8 tracking_state
 # 2 -> MOVING
 int8 action_state
 
-# 2D Bounding box projected to Camera image
+# 2D Bounding box projected to the Camera image
 zed_msgs/BoundingBox2Di bounding_box_2d
 
 # 3D Bounding box in world frame
