@@ -11,6 +11,9 @@ uint8 STATUS_PLAYING=0
 uint8 STATUS_PAUSED=1
 uint8 STATUS_END=2
 
+# SVO frame timestamp
+uint64 frame_ts
+
 # SVO playback position
 uint32 frame_id
 
