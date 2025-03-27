@@ -42,7 +42,7 @@ if(ROS2_FOUND)
         #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
         add_definitions(-DFOUND_JAZZY)
     else()
-        message("*** WARNING *** ROS2 ${FOUND_ROS2_DISTRO} is not officially supported by the package '${PROJECT_NAME}'. Correct operation is not guaranteed.")
+        message("*** WARNING *** Unsupported ROS2 ${FOUND_ROS2_DISTRO}. '${PROJECT_NAME}' may not work correctly.")
     endif()
 else()
     message("*** WARNING *** ROS2 distro is unknown. This package could not work correctly.")
@@ -95,6 +95,7 @@ set(MSG_FILES
     "msg/GnssFusionStatus.msg"
     "msg/Heartbeat.msg"
     "msg/MagHeadingStatus.msg"
+    "msg/SvoStatus.msg"
 )
 
 set(SRV_FILES
