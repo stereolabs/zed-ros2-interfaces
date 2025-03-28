@@ -2,7 +2,7 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-5.0.0
+5.0.0 (2025-03-28)
 ------------------
 * Add new SvoStatus topic
 * Add new HealthStatusStamped topic
