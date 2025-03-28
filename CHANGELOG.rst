@@ -6,6 +6,7 @@ Changelog for package zed_msgs
 ------------------
 * Add new SvoStatus topic
 * Add new HealthStatusStamped topic
+* Add new SetSvoFrame service
 
 4.2.5 (2025-03-25)
 ------------------

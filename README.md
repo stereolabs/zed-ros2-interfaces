@@ -90,7 +90,7 @@ You can get more information by reading the [Stereolabs online documentation](ht
 - [SetPose](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetPose.srv)
 - [SetROI](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetROI.srv)
 - [StartSvoRec](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/StartSvoRec.srv)
-- [SetSvoFrameId.srv](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetSvoFrameId.srv)
+- [SetSvoFrame.srv](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetSvoFrame.srv)
 
 You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
 
