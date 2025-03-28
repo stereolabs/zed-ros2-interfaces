@@ -2,8 +2,19 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.0.0
+------------------
+* Add new SvoStatus topic
+* Add new HealthStatusStamped topic
+* Add new SetSvoFrame service
+
+4.2.5 (2025-03-25)
+------------------
+* Update Object.msg
+* Update README.md
+
+Old releases
+------------------
 * Changed the name of the package `zed_interfaces` to `zed_msgs` to match the ROS2 naming convention
 * Add ZED X One mesh
 * Update packages version
