@@ -57,9 +57,9 @@ source ~/.bashrc
 > :pushpin: **Note**: If the command `rosdep` is missing, you can install it using the following method:
 >
 > `sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential`
-
+>
 > :pushpin: **Note**: The option `--symlink-install` is important, it allows using symlinks instead of copying files to the ROS2 folders during the installation, where possible. Each package in ROS2 must be installed and all the files used by the > nodes must be copied into the installation folders. Using symlinks allows you to modify them in your workspace, reflecting the modification during the next executions without the needing to issue a new colcon build command. This is true only for > all the files that don't need to be compiled (Python scripts, configurations, etc.).
-
+>
 > :pushpin: **Note**: If you are using a different console interface like `zsh`, you have to change the `source` command as follows: `echo source $(pwd)/install/local_setup.zsh >> ~/.zshrc and source ~/.zshrc`.
 
 ## Custom Topics
@@ -69,6 +69,7 @@ source ~/.bashrc
 - [BoundingBox3D](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/BoundingBox3D.msg)
 - [DepthInfoStamped](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/DepthInfoStamped.msg)
 - [GnssFusionStatus](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/GnssFusionStatus.msg)
+- [HealthStatusStamped](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/HealthStatusStamped.msg)
 - [Heartbeat](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/Heartbeat.msg)
 - [Keypoint2Df](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/Keypoint2Df.msg)
 - [Keypoint2Di](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/Keypoint2Di.msg)
@@ -80,6 +81,7 @@ source ~/.bashrc
 - [PosTrackStatus](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/PosTrackStatus.msg)
 - [Skeleton2D](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/Skeleton2D.msg)
 - [Skeleton3D](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/Skeleton3D.msg)
+- [SvoStatus](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/msg/SvoStatus.msg)
 
 You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/)
 

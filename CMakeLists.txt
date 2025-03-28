@@ -96,6 +96,7 @@ set(MSG_FILES
     "msg/Heartbeat.msg"
     "msg/MagHeadingStatus.msg"
     "msg/SvoStatus.msg"
+    "msg/HealthStatusStamped.msg"
 )
 
 set(SRV_FILES
