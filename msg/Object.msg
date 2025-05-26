@@ -50,7 +50,6 @@ bool skeleton_available
 # 0 -> POSE_18
 # 1 -> POSE_34
 # 2 -> POSE_38
-# 3 -> POSE_70
 int8 body_format
 
 # 2D Bounding box projected to Camera image of the person head
