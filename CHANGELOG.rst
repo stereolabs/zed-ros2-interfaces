@@ -2,8 +2,8 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.0.1 (2025-05-26)
+------------------
 * Add SaveAreaMemory custom service
 * Contributors: Walter Lucetti
 
