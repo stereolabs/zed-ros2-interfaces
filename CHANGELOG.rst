@@ -2,6 +2,11 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add SaveAreaMemory custom service
+* Contributors: Walter Lucetti
+
 5.0.0 (2025-03-28)
 ------------------
 * Add new SvoStatus topic
