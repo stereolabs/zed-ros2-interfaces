@@ -42,7 +42,7 @@ The `zed_msgs` is a colcon package. It depends on the following ROS 2 packages:
 
 Open a terminal, clone the repository, update the dependencies, and build the packages:
 
-```
+```bash
 cd ~/catkin_ws/src
 git clone https://github.com/stereolabs/zed-ros2-interfaces.git
 cd ../
@@ -91,6 +91,7 @@ You can get more information by reading the [Stereolabs online documentation](ht
 - [SetROI](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetROI.srv)
 - [StartSvoRec](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/StartSvoRec.srv)
 - [SetSvoFrame.srv](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SetSvoFrame.srv)
+- [SaveAreaMemory.srv](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/srv/SaveAreaMemory.srv)
 
 You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
 
