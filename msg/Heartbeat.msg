@@ -16,5 +16,5 @@ uint32 camera_sn
 # data from an svo?
 bool svo_mode
 
-#data from simulation?
+# data from simulation?
 bool simul_mode
