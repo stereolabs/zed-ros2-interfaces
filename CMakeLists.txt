@@ -32,17 +32,17 @@ if(ROS2_FOUND)
     if(${FOUND_ROS2_DISTRO} STREQUAL "foxy")
         #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
         add_definitions(-DFOUND_FOXY)
-    elseif(${FOUND_ROS2_DISTRO} STREQUAL "iron")
-        #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
-        add_definitions(-DFOUND_IRON)
     elseif(${FOUND_ROS2_DISTRO} STREQUAL "humble")
         #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
         add_definitions(-DFOUND_HUMBLE)
+    elseif(${FOUND_ROS2_DISTRO} STREQUAL "iron")
+        #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
+        add_definitions(-DFOUND_IRON)
     elseif(${FOUND_ROS2_DISTRO} STREQUAL "jazzy")
         #message("* ROS2 ${FOUND_ROS2_DISTRO} is officially supported by this package.")
         add_definitions(-DFOUND_JAZZY)
     else()
-        message("*** WARNING *** ROS2 ${FOUND_ROS2_DISTRO} is not officially supported by the package '${PROJECT_NAME}'. Correct operation is not guaranteed.")
+        message("*** WARNING *** Unsupported ROS2 ${FOUND_ROS2_DISTRO}. '${PROJECT_NAME}' may not work correctly.")
     endif()
 else()
     message("*** WARNING *** ROS2 distro is unknown. This package could not work correctly.")
@@ -95,12 +95,15 @@ set(MSG_FILES
     "msg/GnssFusionStatus.msg"
     "msg/Heartbeat.msg"
     "msg/MagHeadingStatus.msg"
+    "msg/SvoStatus.msg"
+    "msg/HealthStatusStamped.msg"
 )
 
 set(SRV_FILES
     "srv/SetPose.srv"
     "srv/StartSvoRec.srv"
     "srv/SetROI.srv"
+    "srv/SetSvoFrame.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
