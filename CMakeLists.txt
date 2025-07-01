@@ -104,6 +104,7 @@ set(SRV_FILES
     "srv/StartSvoRec.srv"
     "srv/SetROI.srv"
     "srv/SetSvoFrame.srv"
+    "srv/SaveAreaMemory.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
