@@ -2,6 +2,12 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add ZED X HDR CAD models
+* Update 3D models with smaller files
+* Contributors: Walter Lucetti
+
 5.1.0 (2025-10-16)
 ------------------
 * Add SaveAreaMemory service definition
