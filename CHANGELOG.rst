@@ -2,8 +2,8 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.1.1 (2025-10-22)
+------------------
 * Add ZED X HDR CAD models
 * Update 3D models with smaller files
 * Contributors: Walter Lucetti
