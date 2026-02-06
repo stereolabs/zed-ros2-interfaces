@@ -4,7 +4,7 @@
 
 # ROS 2 Interfaces package for ZED Cameras
 
-The `zed-ros2-interfaces` repository installs the `zed_msgs` ROS 2 package which defines the custom topics, services, and actions used by the packages defined in the repositories  [ZED RO 2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) and [ZED RO 2 Examples](https://github.com/stereolabs/zed-ros2-examples).
+The `zed-ros2-interfaces` repository installs the `zed_msgs` ROS 2 package which defines the custom topics, services, and actions used by the packages defined in the repositories  [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) and [ZED ROS2 Examples](https://github.com/stereolabs/zed-ros2-examples).
 
 **Note:** This package does not require CUDA and can be used to receive ZED data on ROS 2 machines without an NVIDIA GPU.
 
@@ -96,14 +96,3 @@ You can get more information by reading the [Stereolabs online documentation](ht
 
 You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
 
-## 3D meshes for RVIZ rendering
-
-- [virtual](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/virtual.stl)
-- [zed](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed.stl)
-- [zed2](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed2.stl)
-- [zed2i](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed2i.stl)
-- [zedm](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedm.stl)
-- [zedx](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedx.stl)
-- [zedxm](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxm.stl)
-- [zedxone4k](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxone4k.stl)
-- [zedxonegs](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxonegs.stl)

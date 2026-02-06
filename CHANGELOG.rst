@@ -2,6 +2,10 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2026-06-02
+----------
+- Removed the mesh files from the package. Moved to the "zed_description" package in the zed-ros2-descriptions repository.
+
 5.1.1 (2025-10-22)
 ------------------
 * Add ZED X HDR CAD models
