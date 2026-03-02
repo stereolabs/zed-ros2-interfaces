@@ -96,14 +96,3 @@ You can get more information by reading the [Stereolabs online documentation](ht
 
 You can get more information by reading the [Stereolabs online documentation](https://www.stereolabs.com/docs/ros2/zed-node/#services)
 
-## 3D meshes for RVIZ rendering
-
-- [virtual](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/virtual.stl)
-- [zed](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed.stl)
-- [zed2](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed2.stl)
-- [zed2i](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zed2i.stl)
-- [zedm](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedm.stl)
-- [zedx](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedx.stl)
-- [zedxm](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxm.stl)
-- [zedxone4k](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxone4k.stl)
-- [zedxonegs](https://github.com/stereolabs/zed-ros2-interfaces/blob/master/meshes/zedxonegs.stl)
