@@ -2,6 +2,15 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove unused URDF files and associated references from CMakeLists and README
+  * Mesh files are now in the `zed_description` package available via APT
+* Improve formatting and clarity in CONTRIBUTING.md
+* Fix CONTRIBUTING
+* Fix README
+* Contributors: Walter Lucetti
+
 5.1.1 (2025-10-22)
 ------------------
 * Add ZED X HDR CAD models
