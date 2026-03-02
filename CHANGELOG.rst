@@ -2,8 +2,8 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.2.1 (2026-03-02)
+------------------
 * Remove unused URDF files and associated references from CMakeLists and README
   * Mesh files are now in the `zed_description` package available via APT
 * Improve formatting and clarity in CONTRIBUTING.md
