@@ -2,8 +2,8 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.3.0 (2026-05-05)
+------------------
 * Update PosTrackStatus to GEN_3
 * Add "scene_illuminance" to health status message
 * Contributors: Walter Lucetti
