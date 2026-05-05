@@ -20,3 +20,6 @@ bool low_depth_reliability
 
 # Motion sensors reliability is low
 bool low_motion_sensors_reliability
+
+# Scene Illuminance (units 0.1 lux)
+int32 scene_illuminance
