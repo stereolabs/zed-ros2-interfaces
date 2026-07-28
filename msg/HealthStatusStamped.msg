@@ -23,3 +23,6 @@ bool low_motion_sensors_reliability
 
 # Scene Illuminance (units 0.1 lux)
 int32 scene_illuminance
+
+# Current image is a duplicate of the previous one, even though its timestamp advanced
+bool duplicated_image
