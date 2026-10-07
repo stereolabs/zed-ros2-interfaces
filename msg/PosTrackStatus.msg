@@ -37,5 +37,13 @@ uint8 spatial_memory_status
 #   100: tracking can be fully trusted
 uint8 pose_confidence
 
-# Deprecated
+# Deprecated: use `odometry_status` and `spatial_memory_status` instead.
+# Global state of the positional tracking module, as returned by the ZED SDK
+# `sl::POSITIONAL_TRACKING_STATE`. NOTE: the values do NOT match the constants above:
+# 0 - SEARCHING (deprecated, no longer in use)
+# 1 - OK: the positional tracking is functioning normally
+# 2 - OFF: the positional tracking is currently disabled
+# 3 - FPS_TOO_LOW: the effective FPS is too low to provide accurate motion tracking results
+# 4 - SEARCHING_FLOOR_PLANE: the camera is searching for the floor plane to set the world reference frame
+# 5 - UNAVAILABLE: the tracking module was unable to track from the previous frame to the current frame
 uint8 status
