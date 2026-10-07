@@ -2,6 +2,11 @@
 Changelog for package zed_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Improve PosTrackStatus comments: document the values of the deprecated `status` field (`sl::POSITIONAL_TRACKING_STATE`)
+* Contributors: Walter Lucetti
+
 5.5.0 (2026-10-07)
 ------------------
 * Add pose_confidence and duplicated_image
