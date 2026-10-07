@@ -21,5 +21,9 @@ bool low_depth_reliability
 # Motion sensors reliability is low
 bool low_motion_sensors_reliability
 
+# This indicates the image may be duplicated, so not a new one even if the timestamp say so. (Camera frozen?)
+bool duplicated_image
+
 # Scene Illuminance (units 0.1 lux)
 int32 scene_illuminance
+

@@ -31,5 +31,11 @@ uint8 odometry_status
 # NOT_ENOUGH_MEMORY_FOR_TRACKING - Displayed when there is not enough memory to continue tracking.
 uint8 spatial_memory_status
 
+# Confidence/quality of the pose estimation for the target frame.
+# A confidence metric of the tracking [0-100] with:
+#   0:   tracking is lost
+#   100: tracking can be fully trusted
+uint8 pose_confidence
+
 # Deprecated
 uint8 status
