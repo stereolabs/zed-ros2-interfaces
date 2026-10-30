@@ -5,6 +5,7 @@ Changelog for package zed_msgs
 Forthcoming
 -----------
 * Improve PosTrackStatus comments: document the values of the deprecated `status` field (`sl::POSITIONAL_TRACKING_STATE`)
+* Add `tracking_fusion_status` and `motion_prior_status` to `PosTrackStatus` (ZED SDK 5.6 motion prior)
 * Contributors: Walter Lucetti
 
 5.5.0 (2026-10-07)

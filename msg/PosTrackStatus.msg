@@ -37,6 +37,37 @@ uint8 spatial_memory_status
 #   100: tracking can be fully trusted
 uint8 pose_confidence
 
+# TRACKING_FUSION_STATUS
+# Sources used to estimate the pose of the current frame (`sl::POSITIONAL_TRACKING_FUSION_STATUS`).
+# MOTION_PRIOR: the images cannot be used and the pose follows the motion given as motion prior
+# (e.g. wheel odometry): `odometry_status` keeps reporting why the images cannot be used.
+uint8 FUSION_VISUAL_INERTIAL = 0
+uint8 FUSION_VISUAL = 1
+uint8 FUSION_INERTIAL = 2
+uint8 FUSION_GNSS = 3
+uint8 FUSION_VISUAL_INERTIAL_GNSS = 4
+uint8 FUSION_VISUAL_GNSS = 5
+uint8 FUSION_INERTIAL_GNSS = 6
+uint8 FUSION_UNAVAILABLE = 7
+uint8 FUSION_MOTION_PRIOR = 8
+uint8 tracking_fusion_status
+
+# MOTION_PRIOR_STATUS
+# How the motion prior (e.g. wheel odometry) was used for the current frame (`sl::RELATIVE_POSE_FUSION_STATUS`).
+# OFF - No motion prior is used.
+# OK - The motion prior was used for this frame.
+# MISSING - No motion prior was received for this frame: only the images were used. Occasional values are harmless.
+# OUT_OF_SYNC - The motion prior did not cover the time interval of this frame. Reported on every frame, it means that the samples are not chained or that the clocks of the source and of the camera do not agree.
+# REJECTED - The motion prior disagreed with the images and was discarded for this frame. Persistent values usually mean a wrong mounting transform, a wrong sign convention or an uncertainty set too low.
+# DEFERRED - The motion prior for this frame had not arrived yet: it will be used once it arrives. Expected on most frames when the source is slower than the camera or its samples arrive after the images.
+uint8 MOTION_PRIOR_OFF = 0
+uint8 MOTION_PRIOR_OK = 1
+uint8 MOTION_PRIOR_MISSING = 2
+uint8 MOTION_PRIOR_OUT_OF_SYNC = 3
+uint8 MOTION_PRIOR_REJECTED = 4
+uint8 MOTION_PRIOR_DEFERRED = 5
+uint8 motion_prior_status
+
 # Deprecated: use `odometry_status` and `spatial_memory_status` instead.
 # Global state of the positional tracking module, as returned by the ZED SDK
 # `sl::POSITIONAL_TRACKING_STATE`. NOTE: the values do NOT match the constants above:
